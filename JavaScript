@@ -1,0 +1,10 @@
+<script>
+var year = new Date();
+year = year.getFullYear();
+jQuery(function($){
+	$('#footer-info').html('© ' + year + ' Your site's name | <a href="https://yoursite.com">Your Name</a> ');
+});
+</script>
+
+// if your are a divi user follow this path > Divi > intergation > Add code to the < head > of your section.
+// Thank you, Enjoy :)
